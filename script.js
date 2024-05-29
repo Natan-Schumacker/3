@@ -6,15 +6,28 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Você é um líder de uma das nações mais poderoas do mundo, eleito na ultima eleição, porém apesar de todo a infraestrutura e PIB seu país é umd dos que mais produz gases do efeito estufa",
+        enunciado: "Você é um líder de uma das nações mais poderoas do mundo, eleito na ultima eleição, porém apesar de todo a infraestrutura e PIB de seu país, ele é um dos que mais produz gases do efeito estufa",
         alternativas: [
             {
                 texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "O novo representande da nação mais desenvolvida do mundo, temeu no começo de seu mandato sobre as questões climaticas. "
             },
             {
                 texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: "O novo líder na maior nação do mundo começou seu mandato entusiasmado para resolver os problemas climaticas pendentes do país"
+            }
+        ]
+    },
+    {
+        enunciado: "O que você faria sobre as questões climáticas?",
+        alternativas: [
+            {
+                texto: "Diminuir a emição de gases por meio de leis e fiscalização ao custo de deiminuir a produção industrial",
+                afirmacao: ""
+            },
+            {
+                texto: "Ignorar isso por enguanto e fazer somento o possível sem diminuir o crescimento da econômia",
+                afirmacao: ""
             }
         ]
     },

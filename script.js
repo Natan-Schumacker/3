@@ -6,15 +6,15 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Você é um líder de uma das nações mais poderoas do mundo, eleito na ultima eleição, porém apesar de todo a infraestrutura e PIB de seu país, ele é um dos que mais produz gases do efeito estufa",
+        enunciado: "Você é o líder de uma das nações mais poderosas do mundo, eleito na última eleição. Apesar de toda a infraestrutura e PIB de seu país, ele é um dos que mais contribui para o aquecimento global.",
         alternativas: [
             {
                 texto: "Isso é assustador!",
-                afirmacao: "O novo representande da nação mais desenvolvida do mundo, temeu no começo de seu mandato sobre as questões climaticas. "
+                afirmacao: "O novo representante da nação mais desenvolvida do mundo, temeu no começo de seu mandato sobre as questões climaticas,"
             },
             {
                 texto: "Isso é maravilhoso!",
-                afirmacao: "O novo líder na maior nação do mundo começou seu mandato entusiasmado para resolver os problemas climaticas pendentes do país"
+                afirmacao: "O novo líder da maior nação do mundo começou seu mandato entusiasmado para resolver os problemas climáticos pendentes do país,"
             }
         ]
     },
@@ -22,16 +22,28 @@ const perguntas = [
         enunciado: "O que você faria sobre as questões climáticas?",
         alternativas: [
             {
-                texto: "Diminuir a emição de gases por meio de leis e fiscalização ao custo de deiminuir a produção industrial",
-                afirmacao: ""
+                texto: "Diminuir a emissão de gases por meio de leis e fiscalização pesada ao custo de diminuir a produção industrial",
+                afirmacao: "Sua primeira ação foi a criação de políticas efetivas para resolver o problema, mas deixou o preço médio dos produtos e serviços do país mais caros diminuindo a circulação de dinheiro junto a economia"
             },
             {
-                texto: "Ignorar isso por enguanto e fazer somento o possível sem diminuir o crescimento da econômia",
-                afirmacao: ""
+                texto: "Dar prioridade para indústria e comércio e fazer somente o que pode ser feito sem diminuir o crescimento da economia do país de forma significativa.",
+                afirmacao: "mas ele não quis atrapalhar a economia, agindo apenas de formas efetivas monetariamente, com o ônus de previsões de pouco resultado para a resolução do problema"
             }
         ]
     },
-
+    {
+        enunciado: "Você é chamado alguns mêses depois de implementar suas poilíticas para uma convenção sobre mudandaças climáticas perguntam e cobram",
+        alternativas: [
+            {
+                texto: "Diminuir a emissão de gases por meio de leis e fiscalização pesada ao custo de diminuir a produção industrial",
+                afirmacao: "Sua primeira ação foi a criação de políticas efetivas para resolver o problema, mas deixou o preço médio dos produtos e serviços do país mais caros diminuindo a circulação de dinheiro junto a economia"
+            },
+            {
+                texto: "Dar prioridade para indústria e comércio e fazer somente o que pode ser feito sem diminuir o crescimento da economia do país de forma significativa.",
+                afirmacao: "mas ele não quis atrapalhar a economia, agindo apenas de formas efetivas monetariamente, com o ônus de previsões de pouco resultado para a resolução do problema"
+            }
+        ]
+    },
 ];
 
 

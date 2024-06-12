@@ -32,14 +32,27 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Você é chamado alguns mêses depois de implementar suas poilíticas para uma convenção sobre mudandaças climáticas perguntam e cobram",
+        enunciado: "Você é chamado alguns mêses depois de implementar suas poilíticas para uma convenção sobre mudandaças climáticas perguntam e cobram sobre a situação, mas exclusivamente na parte de como os empresarios entraram no projeto do governo",
         alternativas: [
             {
-                texto: "Diminuir a emissão de gases por meio de leis e fiscalização pesada ao custo de diminuir a produção industrial",
+                texto: "você fala sobre politicas que seram implantadas nas empresas como por exemplo: obrigação legilativa para empresas doarem uma porcentagem de seu terreno industrial/comercial para replantio de vegetação nativa",
+                afirmacao: ""
+            },
+            {
+                texto: "Você fala somente que eles seram mais cobrados sobre as leislações atuais, pois mais politicas seriam prejudiais a economia e iriam diminuir a capacidade de",
+                afirmacao: ""
+            }
+        ]
+    },
+    {
+        enunciado: "Depois da conferência você sente que as suas decisões estão repertuctindo demais e você pensa uma ultima vez Será que essa desição foi a correta? você acaba sendo reeleito e pensa se vc deveria continuar com as mesmas leis",
+        alternativas: [
+            {
+                texto: "Diminuir a poluição",
                 afirmacao: "Sua primeira ação foi a criação de políticas efetivas para resolver o problema, mas deixou o preço médio dos produtos e serviços do país mais caros diminuindo a circulação de dinheiro junto a economia"
             },
             {
-                texto: "Dar prioridade para indústria e comércio e fazer somente o que pode ser feito sem diminuir o crescimento da economia do país de forma significativa.",
+                texto: "Diminuir pobreza",
                 afirmacao: "mas ele não quis atrapalhar a economia, agindo apenas de formas efetivas monetariamente, com o ônus de previsões de pouco resultado para a resolução do problema"
             }
         ]

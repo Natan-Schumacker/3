@@ -6,11 +6,11 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Você é o líder de uma das nações mais poderosas do mundo, eleito na última eleição. Apesar de toda a infraestrutura e PIB de seu país, ele é um dos que mais contribui para o aquecimento global.",
+        enunciado: "Você é o líder de uma das nações mais poderosas do mundo, eleito na última eleição. Apesar de toda a infraestrutura e PIB de seu país, ele é um dos que mais produz poluição e tambem um dos que mais contribui para o aquecimento global.",
         alternativas: [
             {
                 texto: "Isso é assustador!",
-                afirmacao: "O novo representante da nação mais desenvolvida do mundo, temeu no começo de seu mandato sobre as questões climaticas,"
+                afirmacao: "O novo representante da nação mais desenvolvida do mundo, temeu no começo de seu mandato sobre as questões climáticas,"
             },
             {
                 texto: "Isso é maravilhoso!",
@@ -23,7 +23,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Diminuir a emissão de gases por meio de leis e fiscalização pesada ao custo de diminuir a produção industrial",
-                afirmacao: "Sua primeira ação foi a criação de políticas efetivas para resolver o problema, mas deixou o preço médio dos produtos e serviços do país mais caros diminuindo a circulação de dinheiro junto a economia"
+                afirmacao: "sua primeira ação foi a criação de políticas efetivas para resolver o problema, mas deixou o preço médio dos produtos e serviços do país mais caros diminuindo a circulação de dinheiro junto a economia"
             },
             {
                 texto: "Dar prioridade para indústria e comércio e fazer somente o que pode ser feito sem diminuir o crescimento da economia do país de forma significativa.",
@@ -32,28 +32,28 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Você é chamado alguns mêses depois de implementar suas poilíticas para uma convenção sobre mudandaças climáticas perguntam e cobram sobre a situação, mas exclusivamente na parte de como os empresarios entraram no projeto do governo",
+        enunciado: "Você é chamado alguns mêses depois de implementar suas poilíticas para uma convenção sobre mudandaças climáticas, eles perguntam e cobram sobre a situação, mas exclusivamente na parte de como os empresarios entraram no projeto do governo sobre Sustentabilidade ambiental",
         alternativas: [
             {
                 texto: "você fala sobre politicas que seram implantadas nas empresas como por exemplo: obrigação legilativa para empresas doarem uma porcentagem de seu terreno industrial/comercial para replantio de vegetação nativa",
-                afirmacao: ""
+                afirmacao: "e na hora para se pronunciar sobre o asunto disse que estava trabalhando arudamente para acabar com o problema."
             },
             {
-                texto: "Você fala somente que eles seram mais cobrados sobre as leislações atuais, pois mais politicas seriam prejudiais a economia e iriam diminuir a capacidade de",
-                afirmacao: ""
+                texto: "Você fala somente que eles seram mais cobrados sobre as legislações atuais, pois mais politicas seriam prejudiais a economia e iriam diminuir a capacidade de crescimento social e economico da polulação",
+                afirmacao: "e na hora para se pronunciar sobre o assunto disse que estava fazendo o possível para resolver o problema."
             }
         ]
     },
     {
-        enunciado: "Depois da conferência você sente que as suas decisões estão repertuctindo demais e você pensa uma ultima vez Será que essa desição foi a correta? você acaba sendo reeleito e pensa se vc deveria continuar com as mesmas leis",
+        enunciado: "Depois da conferência você sente que as suas decisões estão repercutindo demais e você pensa uma ultima vez Será que essas desisões foram corretas? você acaba sendo reeleito e pensa se vc deveria continuar com as mesmas leis e pensa no que fara nesse novo mandato",
         alternativas: [
             {
                 texto: "Diminuir a poluição",
-                afirmacao: "Sua primeira ação foi a criação de políticas efetivas para resolver o problema, mas deixou o preço médio dos produtos e serviços do país mais caros diminuindo a circulação de dinheiro junto a economia"
+                afirmacao: "Depois de repensar sobre suas politícas ambientais no começo de seu segundo mandato ele decidiu retomar com politicas decisiva que fizeram o país diminuir consideravelmente as emições de poluentes, que no futuro se tornaram referencia no mundo inteiro e os outros países que ignoraram essas questões sofrem por causa do ar e água e terras contaminados"
             },
             {
                 texto: "Diminuir pobreza",
-                afirmacao: "mas ele não quis atrapalhar a economia, agindo apenas de formas efetivas monetariamente, com o ônus de previsões de pouco resultado para a resolução do problema"
+                afirmacao: " Depois de repensar suas politicas para eu segundo mandato você decide focar na economia, mais especificamente no fim  da pobreza, apesar de um sucesso grandioso, as pesoas agora sofrem diariamente com a poluição diminuindo a expecttativa de vida da população, principalmente daqueles poucos que ainda continuam pobres"
             }
         ]
     },
